@@ -231,7 +231,7 @@
               <li>
                 <p>홈인홈 에디터의 서재 원목 LP형 깊은 책장 3X4_J139</p><br>
                 <p>할인판매가 <span>39,800원</span></p>
-                <p class="text_right"><button>담기</button></p>
+                <p class="text_right"><button><a href="#">담기</a></button></p>
               </li>
             </ul>
           </div>
@@ -239,10 +239,10 @@
 
           <!-- 버튼 박스 -->
           <div id="button_box">
-            <button>찜하기</button>
-            <button>장바구니</button>
-            <button>바로구매</button>
-          </div>
+            <a href="#"><button class="a">찜하기</button></a>
+            <a href="#"><button class="a">장바구니</button></a>
+            <a href="#"><button class="b">바로구매</button></a>
+     </div>
         </div>
 
 
@@ -261,7 +261,7 @@
           <hr>
           <dl>
             <dt>Gift Talk</dt>
-            <dd>1 | 쓰기</dd>
+            <dd><a href="#">1</a> | <a href="#">쓰기</a></dd>
           </dl>
         </div>
       </div>
@@ -270,34 +270,34 @@
       <!--다른 고객이 함께 보는(알고리즘) -->
       <div id="together">
         <h3>HAPPY TOGETHER <span>이 상품을 조회한 고객님들이 같이 조회한 상품</span></h3>
-        <div class="sub_together_box"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
+        <div class="sub_together_box"><a href="#"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
           <h4>JWK</h4>
           <p>프리미엄 다크 JWK</p>
-          <h5 class="per_10">39,000원</h5>
+          <h5 class="per_10">39,000원</h5></a>
         </div>
 
-        <div class="sub_together_box"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
+        <div class="sub_together_box"><a href="#"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
           <h4>furnifranc</h4>
           <p>수입 엔틱가구 TR 2</p>
-          <h5 class="per_27">680,000원</h5>
+          <h5 class="per_27">680,000원</h5></a>
         </div>
 
-        <div class="sub_together_box"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
+        <div class="sub_together_box"><a href="#"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
           <h4>furnifranc</h4>
           <p>수입 엔틱가구 TR 3</p>
-          <h5 class="per_10">470,000원</h5>
+          <h5 class="per_10">470,000원</h5></a>
         </div>
 
-        <div class="sub_together_box"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
+        <div class="sub_together_box"><a href="#"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
           <h4>home in home</h4>
           <p>콜렉터북케이스 LP장</p>
-          <h5 class="per_30">38,800원</h5>
+          <h5 class="per_30">38,800원</h5></a>
         </div>
 
-        <div class="sub_together_box"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
+        <div class="sub_together_box"><a href="#"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
           <h4>home in home</h4>
           <p>홈인홈 에디터의 서재</p>
-          <h5 class="per_32">98,000원</h5>
+          <h5 class="per_32">98,000원</h5></a>
         </div>
       </div>
 
@@ -322,17 +322,17 @@
 
         <img src="img/sub/page_bookshelf_01.jpg" alt=""><br><br>
 
-
+        <!-- 비용 테이블 -->
         <div id="cost">
           <img src="img/sub/icon_book_shelf.jpg" alt="del_info">
           <h4>주문전 배송 비용을 확인해주세요.</h4>
 
           <table>
             <tr>
-              <th>제품</th>
-              <th>수도권</th>
-              <th>경기외곽</th>
-              <th>지방</th>
+              <td>제품</td>
+              <td>수도권</td>
+              <td>경기외곽</td>
+              <td>지방</td>
             </tr>
 
             <tr class="last_td">
@@ -344,9 +344,38 @@
           </table>
         </div>
 
+        <!-- 가구배송 체크사항 -->
+        <div id="precheck">
+          <h1> 가구배송 체크사항 </h1>
+          <h3>미리 확인하시어 기분좋은 배송 받으시기 바랍니다.</h3>
 
 
+          <h2> <img src="img/icon/icon_data_check.png" alt="icon1"> 안심번호 체크 해제 필수</h2>
+          <p>안심번호로 등록되면 배송 안내 문자 및 전화가 정상적으로 처리되지 않아 <br>배송지연 또는 불가 사항이 발생될 수 있습니다.</p>
+
+
+          <h2><img src="img/icon/icon_data_check.png" alt="icon1"> 오늘 주문! 배송은 언제?</h2>
+          <p>가구 배송은 화물/설치 배송으로 쇼핑몰 시스템과 연동되지 않습니다.</p>
+          <p>평균 수도권 5~10일/지방 최대 14일 정도 소요되며</p>
+          <p>배송 전 가구 전문 기사님이 직접 해피콜 후 배송됩니다.</p>
+
+          <h2><img src="img/icon/icon_data_check.png" alt="icon1"> 지역별 착불 배송비 확인 필수</h2>
+          <p><span class="underline">페이지 하단 지역별 착불 배송비 및 안내</span>를 반드시 확인하시기 바랍니다. </p>
+
+        </div>
+
+
+        <!-- 상세 페이지 제품 사진 시작 -->
+         
         <div id="product_photo">
+
+          <h2>홈인홈 『에디터의 서재』 원목 책장 시리즈</h2>
+          <h3>LP형 깊은 책장 3&times;4</h3>
+          <img src="img/sub/pic_book_shelf_015.jpg" alt="product_photo"><br><br>
+          <img src="img/sub/pic_book_shelf_016.jpg" alt="product_photo"><br><br>
+
+          <p>#파티션 책장 #LP책장 #오픈책장 #틈새수납 #아트서적</p>
+
           <h3>#분위기 있는 북카페</h3>
           <img src="img/sub/pic_book_shelf_001.jpg" alt="">
 
@@ -363,6 +392,8 @@
           <img src="img/sub/pic_book_shelf_005.jpg" alt="">
         </div>
 
+
+        <!-- 상세페이지 내 섬네일 구간 -->
         <div id="thum_photo">
           <h3>LP형 깊은 책장</h3>
           <p>walnut / Redwood / Natural</p>
@@ -412,27 +443,20 @@
             <img src="img/sub/pic_book_shelf_014.jpg" alt="">
           </div>
         </div>
+       
 
         <div id="handle">
           <h3>서랍 핸들 디자인 변경 안내</h3>
-          <p>에디터의 서재 책장시리즈의 서랍 유닛의 핸들 디자인이</p>
-          <p>사용시 더욱 편리한 형태로 변경되었습니다.</p>
+          <p>에디터의 서재 책장시리즈의 서랍 유닛의 핸들 디자인이 사용시 더욱 편리한 형태로 변경되었습니다.</p>
           <p>이미지 참고 부탁드립니다.</p><br><br>
 
           <img src="img/sub/pic_be_af.jpg" alt="before_after">
-        
-        <h4>홈인홈 『에디터의 서재』 원목 책장 시리즈</h4>
-        <h3>LP형 깊은 책장 3&times;4</h3>
-        <img src="img/sub/pic_book_shelf_015.jpg" alt="product_photo">
-        <img src="img/sub/pic_book_shelf_016.jpg" alt="product_photo">
-        
-        <p>#파티션 책장 #LP책장 #오픈책장 #틈새수납 #아트서적</p>
 
+          
+          <h3>상세사이즈</h3>
+          <p>실측 환경 및 위치에 따라 사이즈 차이가 발생할 수 있습니다.<p>
 
-        <h3>상세사이즈</h3>
-        <p>실측 환경 및 위치에 따라 사이즈 차이가 발생할 수 있습니다.<p>
-
-          <img src="img/sub/pic_book_shelf_017.jpg" alt="sizeinfo">
+              <img src="img/sub/pic_book_shelf_017.jpg" alt="sizeinfo">
 
         </div>
       </div>
@@ -461,9 +485,9 @@
       <div id="review">
         <h2><img src="img/logo/icon_pen.jpg"> 상품 후기</h2>
         <ul>
-          <li><a href="#detail">전체(30)</a></li>
-          <li><a href="#shipping">포토</a></li>
-          <li>매장</li>
+          <li><a href="#">전체(30)</a></li>
+          <li><a href="#">포토</a></li>
+          <li><a href="#">매장</a></li>
           <li>
             <div class="dropbox">
               <select>
@@ -474,7 +498,7 @@
                 <option>4</option>
                 <option>5</option>
               </select>
-              <button>후기 작성하기</button>
+              <a href="#"><button>후기 작성하기</button></a>
             </div>
           </li>
         </ul>
@@ -532,7 +556,7 @@
           <li>Q &#38; A</li>
           <li>
             <div class="qna_button">
-              <button>문의하기</button>
+              <a href="#"><button>문의하기</button></a>
             </div>
           </li>
         </ul>
@@ -570,7 +594,7 @@
       <div id="as_info">
         <ul>
           <li>배송&#47;교환&#47;환불</li>
-          <li><button>반품&#47;환불 신청하기</button></li>
+          <li><a href="#"><button>반품&#47;환불 신청하기</button></a></li>
         </ul>
       </div>
 
@@ -622,125 +646,106 @@
 
     <div id="bot_together">
       <h3>TOGETHER <span>카테고리 인기 상품</span></h3>
-      <div class="sub_together_box"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_01.jpg" alt="상품사진1">
+        <h4>QUOTT</h4>
+        <p>미니 북 레스트</p>
+        <h5 class="per_10">83,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_02.jpg" alt="상품사진2">
+        <h4>dodot</h4>
+        <p>밀라노 북선반 4color</p>
+        <h5 class="per_30">139,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_10">13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_04.jpg" alt="상품사진3">
+        <h4>dodot</h4>
+        <p>선인장 북선반</p>
+        <h5 class="per_27">159,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_05.jpg" alt="상품사진4">
+        <h4>S-F</h4>
+        <p>서프쉘프</p>
+        <h5 class="per_10">450,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_30">13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_06.jpg" alt="상품사진5">
+        <h4>Y cabinet</h4>
+        <p>와이캐비닛 북엔드</p>
+        <h5 class="per_30">17,600원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_07.jpg" alt="상품사진1">
+        <h4>MILLANC</h4>
+        <p>밀랑 에세이 크림버치</p>
+        <h5 class="per_10">119,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_08.jpg" alt="상품사진1">
+        <h4>poladore</h4>
+        <p>다용도 이동식 트롤리 선반</p>
+        <h5 class="per_47">24,900원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_10">13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_09.jpg" alt="상품사진1">
+        <h4>비알프렌드</h4>
+        <p>아우어 오브제 2/3/4단</p>
+        <h5>28,300원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_01.jpg" alt="상품사진1">
+        <h4>moodns</h4>
+        <p>거실 만화 책장 1600</p>
+        <h5>149,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_30">13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_10.jpg" alt="상품사진1">
+        <h4>209AVENUE</h4>
+        <p>프리미오 1500 북선반 북타워</p>
+        <h5 class="per_32">193,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_11.jpg" alt="상품사진1">
+        <h4>dometopia</h4>
+        <p>책상위 책꽂이 선반 2단</p>
+        <h5>70,500원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_12.jpg" alt="상품사진1">
+        <h4>S-F</h4>
+        <p>캘리포니아 그라데이션 오브제</p>
+        <h5 class="per_10">450,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_10">13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_13.jpg" alt="상품사진1">
+        <h4>S-F</h4>
+        <p>시드니 그라데이션 오브제</p>
+        <h5 class="per_10">450,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_14.jpg" alt="상품사진1">
+        <h4>S-F</h4>
+        <p>프리미엄 네추럴 오브제 서핑보드</p>
+        <h5 class="per_10">450,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_30">13,800원</h5>
+
+      <div class="sub_together_box"><a href="#"><img src="img/sub/same_categ_15.jpg" alt="상품사진1">
+        <h4>OMS</h4>
+        <p>만화 거실 5단 원목 책장</p>
+        <h5>196,000원</h5></a>
       </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_01.jpg" alt="상품사진1">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
-      </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_02.jpg" alt="상품사진2">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
-      </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_03.jpg" alt="상품사진3">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_10">13,800원</h5>
-      </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_04.jpg" alt="상품사진4">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5>13,800원</h5>
-      </div>
 
-      <div class="sub_together_box"><img src="img/sub/pic_together_05.jpg" alt="상품사진5">
-        <h4>obrecord</h4>
-        <p>[텐텐단독] 오브레코드</p>
-        <h5 class="per_30">13,800원</h5>
-      </div>
     </div>
 
 
